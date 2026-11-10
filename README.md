@@ -28,7 +28,7 @@ REFLEXE est un outil complémentaire d'information et de diagnostic. Il ne rempl
 ## Téléchargement officiel
 
 <details>
-<summary><strong>REFLEXE 1.0.1 — Windows</strong> (dernière version publiée au 9 novembre 2026)</summary>
+<summary><strong>REFLEXE 1.0.1 — Windows</strong> (dernière version publiée au 10 novembre 2026)</summary>
 
 | Information | Valeur |
 |---|---|
