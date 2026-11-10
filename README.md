@@ -16,7 +16,7 @@
 
 REFLEXE est une application Windows conçue pour aider les utilisateurs à mieux comprendre l'état de leur ordinateur et à suivre des informations utiles à leur vigilance numérique.
 
-La première version publique, **REFLEXE 1.0.0**, propose notamment :
+La première version publique, **REFLEXE 1.0.1**, propose notamment :
 
 - **Diagnostic informatique local** : collecte et présentation d'informations utiles sur l'ordinateur.
 - **REFLEXE CLEAN** : évaluation de la santé informatique du PC avec un score sur 100.
@@ -28,20 +28,20 @@ REFLEXE est un outil complémentaire d'information et de diagnostic. Il ne rempl
 ## Téléchargement officiel
 
 <details>
-<summary><strong>REFLEXE 1.0.0 — Windows</strong> (dernière version publiée au 9 novembre 2026)</summary>
+<summary><strong>REFLEXE 1.0.1 — Windows</strong> (dernière version publiée au 9 novembre 2026)</summary>
 
 | Information | Valeur |
 |---|---|
-| Version | 1.0.0 |
+| Version | 1.0.1 |
 | Système | Windows |
-| Fichier | `REFLEXE.Setup.1.0.0.exe` |
-| Taille publiée | 122 001 643 octets (environ 116.35 Mio) |
+| Fichier | `REFLEXE.Setup.exe` |
+| Taille publiée | 122196975 octets |
 | Type | Installateur Windows |
-| SHA-256 | `27ae8ad13b2da233213e9cb7b752fd9bb9b1aa6055da25b2eb7fd741c4b3a92b` |
+| SHA-256 | f26ac6719f99ef4160338a619ea9d3cd1081ea3ed635a10c2c9e97e55e70e311 |
 
-**[Télécharger REFLEXE 1.0.0](https://github.com/docteurpc/reflexe-downloads/releases/download/v1.0.0/REFLEXE.Setup.1.0.0.exe)**
+**[Télécharger REFLEXE 1.0.1](https://github.com/docteurpc/reflexe-downloads/releases/latest/download/REFLEXE.Setup.exe)**
 
-[Consulter les notes et les fichiers de la version 1.0.0](https://github.com/docteurpc/reflexe-downloads/releases/tag/v1.0.0)
+[Consulter les notes et les fichiers de la version 1.0.1](https://github.com/docteurpc/reflexe-downloads/releases/tag/v1.0.1)
 
 </details>
 
@@ -56,13 +56,13 @@ Une empreinte SHA-256 permet de comparer le fichier reçu avec l'empreinte publi
 3. Exécutez :
 
 ```powershell
-Get-FileHash .\REFLEXE.Setup.1.0.0.exe -Algorithm SHA256
+Get-FileHash .\REFLEXE.Setup.exe -Algorithm SHA256
 ```
 
 4. Comparez la valeur affichée avec l'empreinte officielle :
 
 ```text
-27ae8ad13b2da233213e9cb7b752fd9bb9b1aa6055da25b2eb7fd741c4b3a92b
+f26ac6719f99ef4160338a619ea9d3cd1081ea3ed635a10c2c9e97e55e70e311
 ```
 
 Si les valeurs diffèrent, ne lancez pas le fichier. Téléchargez-le à nouveau depuis la release officielle ou contactez l'assistance.
@@ -71,7 +71,7 @@ Le fichier `SHA256SUMS.txt` de ce dépôt reprend également l'empreinte publié
 
 ## Installation
 
-1. Téléchargez `REFLEXE.Setup.1.0.0.exe` depuis la [release officielle v1.0.0](https://github.com/docteurpc/reflexe-downloads/releases/tag/v1.0.0).
+1. Téléchargez `REFLEXE.Setup.exe` depuis la [release officielle v1.0.1](https://github.com/docteurpc/reflexe-downloads/releases/tag/v1.0.1).
 2. Vérifiez l'empreinte SHA-256 avant de lancer l'installateur.
 3. Ouvrez le fichier téléchargé et suivez les instructions de l'assistant d'installation Windows.
 4. Une fois l'installation terminée, lancez REFLEXE depuis le raccourci créé par l'installation, s'il est proposé.
